@@ -1,11 +1,13 @@
-# Ignorar configurações do VS Code
+# Ignorar configurações locais do VS Code
 .vscode/
 
-# Ignorar arquivos de design/imagens de referência
+# Ignorar TUDO dentro de assets, exceto a pasta images e seu conteúdo
+/assets/*
+!/assets/images/
+!/assets/images/**
+
+# Ignorar pasta de design (arquivos de referência)
 design/
-active-states.jpg
-desktop-design.jpeg
-mobile-design.png
 
 # Ignorar template de README
 README-template.md
