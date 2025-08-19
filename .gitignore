@@ -1,0 +1,11 @@
+# Ignorar configurações do VS Code
+.vscode/
+
+# Ignorar arquivos de design/imagens de referência
+design/
+active-states.jpg
+desktop-design.jpeg
+mobile-design.png
+
+# Ignorar template de README
+README-template.md
